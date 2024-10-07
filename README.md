@@ -1,4 +1,5 @@
 Sudoku Game in Java
+
 This is an interactive Sudoku game implemented in Java, where players can manually fill in the puzzle grid, validate their moves, and solve the puzzle using a built-in backtracking algorithm. The game includes options for resetting the puzzle and an automatic solver.
 
 Table of Contents
@@ -32,7 +33,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/sudoku-game-java.git
+git clone 
 Navigate to the project directory:
 
 bash
@@ -51,39 +52,32 @@ java SudokuGame
 Usage
 Once you start the game, a partially filled Sudoku board will be displayed, and you'll have several options:
 
-bash
-Copy code
-Current Sudoku Board:
-5 3 0 0 7 0 0 0 0 
-6 0 0 1 9 5 0 0 0 
-0 9 8 0 0 0 0 6 0 
-8 0 0 0 6 0 0 0 3 
-4 0 0 8 0 3 0 0 1 
-7 0 0 0 2 0 0 0 6 
-0 6 0 0 0 0 2 8 0 
-0 0 0 4 1 9 0 0 5 
-0 0 0 0 8 0 0 7 9 
-
 Options:
 1. Enter a number
 2. Solve Sudoku
 3. Reset board
 4. Quit
+   
 To enter a number, select option 1, and follow the prompts to specify the row, column, and number.
 To solve the puzzle, select option 2, and the program will solve the Sudoku automatically.
 To reset the puzzle, select option 3, and the board will revert to its initial state.
 To quit, select option 4 to exit the game.
+
+
 Game Flow
 Initial Display: The Sudoku puzzle with empty spaces represented by 0.
 Player Action: The player is prompted to enter a number or select an option.
 Validation: If the number is valid, it is placed in the grid. If not, an error message is displayed.
 Puzzle Solving: The player can choose to automatically solve the puzzle or reset it at any time.
+
+
 Technologies Used
 Java: The game is entirely written in Java.
 Backtracking Algorithm: For solving the puzzle when the player chooses the solve option.
 CLI-based UI: The game runs in a command-line interface for easy interaction.
 Contributing
 Contributions are welcome! To contribute:
+
 
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
